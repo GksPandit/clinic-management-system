@@ -1,0 +1,80 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background-color: #f4f6f8;
+  color: #333;
+}
+
+.navbar {
+  background-color: #1f1f1f;
+  color: white;
+  padding: 14px 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar button {
+  background-color: #e53935;
+  border-radius: 4px;
+}
+
+.navbar button:hover {
+  background-color: #c62828;
+}
+
+.container {
+  max-width: 900px;
+  margin: 25px auto;
+  background-color: #ffffff;
+  padding: 25px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.patient-card {
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 6px;
+  background-color: #fafafa;
+  margin-bottom: 12px;
+}
+
+.patient-card p {
+  margin: 4px 0;
+}
+
+.form-box {
+  margin-top: 15px;
+  padding: 15px;
+  border-radius: 6px;
+  border: 1px solid #ddd;
+  background-color: #ffffff;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 8px;
+  margin-top: 6px;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background-color: #1976d2;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #125aa0;
+}
