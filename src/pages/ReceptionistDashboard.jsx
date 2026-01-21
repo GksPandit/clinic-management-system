@@ -4,17 +4,18 @@ import ReceptionistPatientList from "../components/ReceptionistPatientList";
 
 function ReceptionistDashboard() {
   return (
-   <>
-  <Navbar />
-  <div className="container">
-    <h1>Receptionist Dashboard</h1>
+    <>
+      <Navbar />
+      <div className="container">
+        <h1>Receptionist Dashboard</h1>
 
-    <AddPatient />
-    <hr />
-    <ReceptionistPatientList />
-  </div>
-</>
+        <AddPatient />
 
+        <hr style={{ margin: "20px 0" }} />
+
+        <ReceptionistPatientList />
+      </div>
+    </>
   );
 }
 

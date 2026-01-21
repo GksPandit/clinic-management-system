@@ -20,7 +20,7 @@ function ReceptionistPatientList() {
       <h2>Patient List (Billing)</h2>
 
       {patients.map(p => (
-        <div key={p.id} style={{ border: "1px solid gray", margin: 10, padding: 10 }}>
+        <div key={p.id} className="patient-card">
           <p><b>Token:</b> {p.token}</p>
           <p><b>Name:</b> {p.name}</p>
 
